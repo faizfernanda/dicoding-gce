@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.about-section {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.about-text {
+    margin-top: 30px;
+}
+
+.about-text h3 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.about-text h6 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.about-text p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+.about-list .media {
+    display: flex;
+    margin-bottom: 15px;
+    font-size: 1em;
+    color: #333;
+}
+
+.about-list .media label {
+    min-width: 80px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.about-list .media p {
+    margin: 0;
+    padding-left: 10px;
+}
+
+.about-image {
+    text-align: center;
+}
+
+.about-image img {
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .flex-row-reverse {
+        flex-direction: column;
+    }
+
+    .about-text, .about-image {
+        margin-top: 20px;
+    }
+}
